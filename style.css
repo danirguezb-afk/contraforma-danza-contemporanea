@@ -580,7 +580,7 @@ footer {
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 3rem;
-  border-bottom: 0.5px solid var(--mid);
+  border-bottom: 0.25px solid #888;
   margin-bottom: 2rem;
 }
 
