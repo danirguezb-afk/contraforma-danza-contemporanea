@@ -36,7 +36,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 4rem;
+  padding: 1.5rem 4rem 1.5rem 1rem;
   background: var(--white);
   border-bottom: 1px solid var(--mid);
 }
@@ -44,7 +44,7 @@ nav {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  width: 200px;
 }
 
 .nav-links {
@@ -436,7 +436,23 @@ nav.compact .nav-label {
 }
 
 .espacios-shapes {
-  padding-top: 4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 690px;
+  min-width: 400px;
+  overflow: hidden;
+
+}
+
+.espacios-shapes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  mix-blend-mode: multiply;
+  display: block;
 }
 
 /* ─── MARQUEE BANNER ──────────────────────────────── */
@@ -460,7 +476,19 @@ nav.compact .nav-label {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: var(--white);
-  padding-right: 4rem;
+}
+
+.marquee-track .sep {
+  font-size: clamp(1rem, 1.4vw, 1.3rem);
+  font-weight: 700;
+  color: var(--white);
+  padding: 0 2.2rem;
+  line-height: 1;
+}
+
+.marquee-track .sep-black {
+
+  color: var(--black);
 }
 
 .marquee-track span em {
@@ -468,6 +496,18 @@ nav.compact .nav-label {
   color: #444;
   padding-right: 4rem;
 }
+
+.marquee-banner-white {
+
+  background-color: #f5f4f0;
+  border: none;
+}
+
+.marquee-track-white span {
+
+  color: var(--black);
+}
+
 
 @keyframes marquee-scroll {
   from {
@@ -582,15 +622,4 @@ footer {
 .footer-info strong {
   color: #888;
   font-weight: 400;
-}
-
-.marquee-banner-white {
-
-  background-color: #f5f4f0;
-  border: none;
-}
-
-.marquee-track-white {
-
-  color: var(--black);
 }
