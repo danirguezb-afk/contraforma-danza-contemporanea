@@ -580,7 +580,7 @@ footer {
   justify-content: space-between;
   align-items: flex-end;
   padding-bottom: 3rem;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 0.5px solid var(--mid);
   margin-bottom: 2rem;
 }
 
@@ -590,14 +590,14 @@ footer {
   align-items: center;
   font-size: 9px;
   letter-spacing: 0.15em;
-  color: #333;
+  color: #888;
   text-transform: uppercase;
 }
 
 .footer-info {
   text-align: right;
   font-size: 11px;
-  color: #555;
+  color: var(--white);
   letter-spacing: 0.08em;
   line-height: 2;
 }
@@ -605,4 +605,10 @@ footer {
 .footer-info strong {
   color: #888;
   font-weight: 400;
+}
+
+.footer-logo-maestranza,
+.footer-logo-contraforma {
+
+  width: 125px;
 }
