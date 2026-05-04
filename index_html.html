@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTRAFORMA — Festival de Danza Contemporánea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <svg viewBox="0 0 260 62" height="38" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,42 L0,14 L18,0 L36,10 L28,18 Q14,18 14,30 L14,42 Z" fill="#0a0a0a" />
+        <rect x="0" y="30" width="28" height="12" fill="#0a0a0a" />
+        <text x="50" y="22" font-family="'Montserrat',sans-serif" font-weight="300" font-size="19" letter-spacing="3"
+          fill="#0a0a0a">CONTRA</text>
+        <text x="50" y="42" font-family="'Montserrat',sans-serif" font-weight="300" font-size="19" letter-spacing="3"
+          fill="#0a0a0a">FORMA</text>
+        <text x="50" y="55" font-family="'Montserrat',sans-serif" font-weight="300" font-size="7" letter-spacing="1.5"
+          fill="#999">festival de <tspan font-weight="500">danza contemporánea</tspan></text>
+      </svg>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#programa">
+          <svg class="nav-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <rect x="1" y="3" width="14" height="1.2" fill="currentColor" />
+            <rect x="1" y="7.4" width="10" height="1.2" fill="currentColor" />
+            <rect x="1" y="11.8" width="12" height="1.2" fill="currentColor" />
+          </svg>
+          <span class="nav-label">Programa</span>
+        </a></li>
+      <li><a href="#espacios">
+          <svg class="nav-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M8 1.5C5.5 1.5 3.5 3.5 3.5 6c0 3.5 4.5 8.5 4.5 8.5S12.5 9.5 12.5 6c0-2.5-2-4.5-4.5-4.5Z"
+              stroke="currentColor" stroke-width="1.2" />
+            <circle cx="8" cy="6" r="1.5" fill="currentColor" />
+          </svg>
+          <span class="nav-label">Espacios</span>
+        </a></li>
+      <li><a href="#concepto">
+          <svg class="nav-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" />
+            <circle cx="8" cy="8" r="2" fill="currentColor" />
+          </svg>
+          <span class="nav-label">Concepto</span>
+        </a></li>
+      <li><a href="#footer">
+          <svg class="nav-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <rect x="1.5" y="3" width="13" height="10" rx="1.5" stroke="currentColor" stroke-width="1.2" />
+            <path d="M1.5 5.5l6.5 4 6.5-4" stroke="currentColor" stroke-width="1.2" />
+          </svg>
+          <span class="nav-label">Contacto</span>
+        </a></li>
+    </ul>
+  </nav>
+
+  <!-- BACK TO TOP -->
+  <button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Volver al inicio">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <path d="M8 13V3M3 7l5-5 5 5" stroke="#f5f4f0" stroke-width="1.5" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <!-- ─── HERO ────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-tag">Sevilla · Teatro de la Maestranza</p>
+      <p class="hero-date">15 — 30<br>Mayo</p>
+      <p class="hero-city">2025</p>
+    </div>
+    <div class="hero-right">
+      <div class="hero-tri"></div>
+      <h1 class="hero-title">CONTRA<br>FORMA</h1>
+      <p class="hero-subtitle">Festival de danza contemporánea</p>
+      <a href="#programa" class="hero-cta">Ver programa</a>
+    </div>
+  </section>
+
+  <!-- ─── MARQUEE BANNER ───────────────────────────────── -->
+  <div class="marquee-banner" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Cuerpo</span><span><em>·</em></span>
+      <span>Mente</span><span><em>·</em></span>
+      <span>Alma</span><span><em>·</em></span>
+      <span>Danza contemporánea</span><span><em>·</em></span>
+      <span>Espacio urbano</span><span><em>·</em></span>
+      <span>Contraforma</span><span><em>·</em></span>
+      <span>Movimiento</span><span><em>·</em></span>
+      <span>Sevilla 2025</span><span><em>·</em></span>
+      <span>Cuerpo</span><span><em>·</em></span>
+      <span>Mente</span><span><em>·</em></span>
+      <span>Alma</span><span><em>·</em></span>
+      <span>Danza contemporánea</span><span><em>·</em></span>
+      <span>Espacio urbano</span><span><em>·</em></span>
+      <span>Contraforma</span><span><em>·</em></span>
+      <span>Movimiento</span><span><em>·</em></span>
+      <span>Sevilla 2025</span><span><em>·</em></span>
+    </div>
+  </div>
+  <!-- ─── MANIFIESTO ──────────────────────────────────── -->
+  <section class="manifiesto" id="manifiesto">
+
+    <!-- Dancer image: place your PNG here. Black bg disappears via mix-blend-mode:multiply -->
+    <div class="manif-photo-col">
+      <img src="imagen/BAILARINA_CONTRAFORMA.png" alt="bailarina CONTRAFORMA" />
+      <!--
+      Replace "dancer.png" with the path to your image file.
+      The image must have a pure black background for the blend mode to work correctly.
+    -->
+    </div>
+
+    <!-- White circle: creates the contraforma negative-space arc -->
+
+
+    <!-- Text column -->
+    <div class="manif-text">
+      <p class="section-label">Manifiesto</p>
+      <p>En los márgenes, en el paso cotidiano, en la grieta entre un lugar y otro: allí aparece CONTRAFORMA, <strong>un
+          festival de danza contemporánea que irrumpe en el espacio urbano para revelarse donde menos se
+          espera</strong>. No ocupa los escenarios tradicionales: los esquiva. Prefiere las calles, los pasajes, los
+        umbrales, esos espacios "en negativo" que habitamos sin ver.</p>
+      <p><strong>Contraforma nace del cruce entre alma, cuerpo y mente</strong>, representados por estructuras
+        geométricas básicas, el triángulo, el cuadrado y el círculo. <strong>Sus combinaciones generan formas nuevas,
+          libres, cambiantes</strong> —las contraformas— que actúan como símbolo de esta danza viva, matizada e
+        indómita.</p>
+      <p>Este festival no solo muestra danza: la esconde, la filtra, la revela. La danza se transforma en una aparición,
+        una interrupción poética que redefine la relación entre quien baila y quien simplemente pasa.</p>
+    </div>
+
+  </section>
+
+  <!-- ─── PROGRAMA ────────────────────────────────────── -->
+  <section class="programa" id="programa">
+    <p class="section-label">Programación</p>
+    <h2>Mayo<br>2025</h2>
+    <div class="eventos-grid">
+
+      <div class="evento">
+        <p class="evento-num">01</p>
+        <p class="evento-hora">Vie 16 · 20:00 h</p>
+        <h3 class="evento-titulo">Umbral</h3>
+        <p class="evento-lugar">Plaza del Salvador</p>
+        <span class="evento-tipo">Apertura</span>
+      </div>
+
+      <div class="evento">
+        <p class="evento-num">02</p>
+        <p class="evento-hora">Sáb 17 · 12:00 h</p>
+        <h3 class="evento-titulo">Grieta</h3>
+        <p class="evento-lugar">Pasaje del Agua</p>
+        <span class="evento-tipo">Intervención</span>
+      </div>
+
+      <div class="evento">
+        <p class="evento-num">03</p>
+        <p class="evento-hora">Sáb 17 · 18:00 h</p>
+        <h3 class="evento-titulo">Vacío Habitado</h3>
+        <p class="evento-lugar">Patio de la Diputación</p>
+        <span class="evento-tipo">Site-specific</span>
+      </div>
+
+      <div class="evento">
+        <p class="evento-num">04</p>
+        <p class="evento-hora">Dom 18 · 11:00 h</p>
+        <h3 class="evento-titulo">Pulso</h3>
+        <p class="evento-lugar">Alameda de Hércules</p>
+        <span class="evento-tipo">Flash mob</span>
+      </div>
+
+      <div class="evento">
+        <p class="evento-num">05</p>
+        <p class="evento-hora">Dom 18 · 19:30 h</p>
+        <h3 class="evento-titulo">Negativo</h3>
+        <p class="evento-lugar">Mercado de Triana</p>
+        <span class="evento-tipo">Intervención</span>
+      </div>
+
+      <div class="evento">
+        <p class="evento-num">06</p>
+        <p class="evento-hora">Lun 19 · 21:00 h</p>
+        <h3 class="evento-titulo">Contraforma Final</h3>
+        <p class="evento-lugar">Teatro de la Maestranza</p>
+        <span class="evento-tipo">Clausura</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── ESPACIOS ─────────────────────────────────────── -->
+  <section class="espacios" id="espacios">
+    <div class="espacios-text">
+      <p class="section-label">Espacios</p>
+      <h2>La ciudad<br>como escenario</h2>
+      <p>Contraforma reivindica los márgenes, las esquinas, los pasillos, las explanadas o los patios olvidados como
+        escenarios vivos y poéticos.</p>
+      <p>Cada espacio urbano elegido no es un contenedor neutral: es un cuerpo que respira, que tiene memoria, que
+        reacciona al movimiento.</p>
+      <ul class="espacios-list">
+        <li>Plaza del Salvador</li>
+        <li>Pasaje del Agua</li>
+        <li>Patio de la Diputación</li>
+        <li>Alameda de Hércules</li>
+        <li>Mercado de Triana</li>
+        <li>Teatro de la Maestranza</li>
+      </ul>
+    </div>
+    <div class="espacios-shapes">
+      <svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;">
+        <rect x="0" y="0" width="190" height="190" fill="#0a0a0a" />
+        <circle cx="190" cy="190" r="110" fill="none" stroke="#0a0a0a" stroke-width="1" opacity="0.15" />
+        <polygon points="70,210 250,210 160,380" fill="none" stroke="#0a0a0a" stroke-width="0.8" opacity="0.2" />
+        <circle cx="155" cy="155" r="85" fill="#f5f4f0" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ─── MARQUEE BANNER ───────────────────────────────── -->
+  <div class="marquee-banner" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Cuerpo</span><span><em>·</em></span>
+      <span>Mente</span><span><em>·</em></span>
+      <span>Alma</span><span><em>·</em></span>
+      <span>Danza contemporánea</span><span><em>·</em></span>
+      <span>Espacio urbano</span><span><em>·</em></span>
+      <span>Contraforma</span><span><em>·</em></span>
+      <span>Movimiento</span><span><em>·</em></span>
+      <span>Sevilla 2025</span><span><em>·</em></span>
+      <span>Cuerpo</span><span><em>·</em></span>
+      <span>Mente</span><span><em>·</em></span>
+      <span>Alma</span><span><em>·</em></span>
+      <span>Danza contemporánea</span><span><em>·</em></span>
+      <span>Espacio urbano</span><span><em>·</em></span>
+      <span>Contraforma</span><span><em>·</em></span>
+      <span>Movimiento</span><span><em>·</em></span>
+      <span>Sevilla 2025</span><span><em>·</em></span>
+    </div>
+  </div>
+
+  <!-- ─── CONCEPTO ─────────────────────────────────────── -->
+  <section class="concepto" id="concepto">
+    <p class="concepto-eyebrow">Cuerpo · Mente · Alma</p>
+    <h2>Tres formas.<br>Infinitas contraformas.</h2>
+    <p>El símbolo de Contraforma nace de la intersección de tres geometrías primigenias que representan los pilares de
+      la danza contemporánea.</p>
+    <div class="symbols-row">
+      <div class="symbol-item">
+        <svg width="56" height="56" viewBox="0 0 56 56">
+          <rect x="4" y="4" width="48" height="48" fill="none" stroke="#0a0a0a" stroke-width="1.2" />
+        </svg>
+        <p class="symbol-label">Cuerpo</p>
+      </div>
+      <div class="sym-op">+</div>
+      <div class="symbol-item">
+        <svg width="56" height="56" viewBox="0 0 56 56">
+          <circle cx="28" cy="28" r="24" fill="none" stroke="#0a0a0a" stroke-width="1.2" />
+        </svg>
+        <p class="symbol-label">Mente</p>
+      </div>
+      <div class="sym-op">+</div>
+      <div class="symbol-item">
+        <svg width="56" height="56" viewBox="0 0 56 56">
+          <polygon points="28,4 52,52 4,52" fill="none" stroke="#0a0a0a" stroke-width="1.2" />
+        </svg>
+        <p class="symbol-label">Alma</p>
+      </div>
+      <div class="sym-op">=</div>
+      <div class="symbol-item">
+        <svg width="48" height="56" viewBox="0 0 48 56">
+          <path d="M0,48 L0,16 L20,0 L40,12 L32,20 L32,48 Z" fill="#0a0a0a" />
+          <circle cx="20" cy="30" r="14" fill="#e8e6e1" />
+        </svg>
+        <p class="symbol-label">Contraforma</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────── -->
+  <footer id="footer">
+    <div class="footer-top">
+
+      <!-- CONTRAFORMA logo (white version) -->
+      <svg viewBox="0 0 260 62" height="44" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,42 L0,14 L18,0 L36,10 L28,18 Q14,18 14,30 L14,42 Z" fill="#f5f4f0" />
+        <rect x="0" y="30" width="28" height="12" fill="#f5f4f0" />
+        <text x="50" y="22" font-family="'Montserrat',sans-serif" font-weight="300" font-size="19" letter-spacing="3"
+          fill="#f5f4f0">CONTRA</text>
+        <text x="50" y="42" font-family="'Montserrat',sans-serif" font-weight="300" font-size="19" letter-spacing="3"
+          fill="#f5f4f0">FORMA</text>
+        <text x="50" y="55" font-family="'Montserrat',sans-serif" font-weight="300" font-size="7" letter-spacing="1.5"
+          fill="#555">festival de <tspan font-weight="500">danza contemporánea</tspan></text>
+      </svg>
+
+      <div style="display:flex; flex-direction:column; align-items:flex-end; gap:1.5rem;">
+        <div class="footer-info">
+          <strong>Sevilla</strong><br>
+          Del 15 al 30 de mayo de 2025
+        </div>
+        <!-- Teatro de la Maestranza logo -->
+        <svg viewBox="0 0 260 58" height="38" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="10" width="9" height="2" fill="#444" />
+          <rect x="2" y="12" width="5" height="38" fill="#444" />
+          <rect x="13" y="6" width="9" height="2" fill="#444" />
+          <rect x="15" y="8" width="5" height="42" fill="#444" />
+          <rect x="26" y="10" width="9" height="2" fill="#444" />
+          <rect x="28" y="12" width="5" height="38" fill="#444" />
+          <rect x="39" y="4" width="9" height="2" fill="#444" />
+          <rect x="41" y="6" width="5" height="44" fill="#444" />
+          <text x="60" y="28" font-family="'Montserrat',sans-serif" font-weight="700" font-size="14" fill="#444">Teatro
+            de</text>
+          <text x="60" y="46" font-family="'Montserrat',sans-serif" font-weight="700" font-size="14" fill="#444">la
+            Maestranza</text>
+        </svg>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Contraforma</span>
+      <span>Andalucía · España</span>
+    </div>
+  </footer>
+
+  <!-- ─── JS ─────────────────────────────────────────────── -->
+  <script>
+    // Nav compact on scroll down, expand on scroll up
+    const nav = document.querySelector('nav');
+    const backTop = document.getElementById('back-top');
+    const THRESHOLD = 300;
+    let lastY = 0;
+
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      if (y > THRESHOLD && y > lastY) {
+        nav.classList.add('compact');
+      } else if (y < lastY) {
+        nav.classList.remove('compact');
+      }
+      y > THRESHOLD ? backTop.classList.add('visible') : backTop.classList.remove('visible');
+      lastY = y;
+    });
+
+    // Scroll fade-in for events, list items and symbols
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.opacity = '1';
+          e.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll('.evento, .espacios-list li, .symbol-item').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(14px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      obs.observe(el);
+    });
+  </script>
+
+</body>
+
+</html>
