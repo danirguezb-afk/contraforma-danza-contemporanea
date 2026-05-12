@@ -1,0 +1,446 @@
+/* ================================================================
+   ANCHO MÍNIMO GLOBAL
+   ================================================================ */
+body {
+    min-width: 320px;
+}
+
+
+/* ================================================================
+   PORTÁTIL  max-width: 1024px
+   ================================================================ */
+@media (max-width: 1024px) {
+
+    .nav-label {
+        max-height: 0 !important;
+        opacity: 0 !important;
+    }
+
+    nav {
+        padding: 1.2rem 2.5rem;
+    }
+
+    .nav-logo {
+        width: 160px;
+    }
+
+    .nav-links {
+        gap: 1.5rem;
+    }
+
+    .hero {
+        margin-top: 62px;
+    }
+
+    .hero-left,
+    .hero-right {
+        padding: 3.5rem 2.5rem;
+    }
+
+    .hero-tri {
+        border-width: 0 22vw 22vw 0;
+    }
+
+    .manif-text {
+        padding: 5rem 3rem 5rem 2rem;
+    }
+
+    .programa {
+        padding: 6rem 2.5rem;
+    }
+
+    .espacios {
+        padding: 2rem;
+    }
+
+    .espacios-text {
+        padding: 4rem 2.5rem 4rem 0.5rem;
+    }
+
+    .concepto {
+        padding: 7rem 4rem;
+    }
+
+    footer {
+        padding: 4rem 2.5rem 2.5rem;
+    }
+
+    .footer-logo-maestranza,
+    .footer-logo-contraforma {
+        width: 100px;
+    }
+}
+
+
+/* ================================================================
+   TABLET  max-width: 768px
+   ================================================================ */
+@media (max-width: 768px) {
+
+    /* Nav centrada: logo arriba, iconos abajo */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        gap: 0.75rem;
+    }
+
+    .nav-logo {
+        width: 140px;
+    }
+
+    .nav-label {
+        max-height: 0 !important;
+        opacity: 0 !important;
+    }
+
+    .nav-links {
+        padding-top: 0.5rem;
+        gap: 1.8rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-links a {
+        gap: 0;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 96px;
+        height: calc(100vh - 96px);
+    }
+
+    .hero-left {
+        padding: 2.5rem 2rem;
+    }
+
+    .hero-right {
+        padding: 2.5rem 2rem;
+    }
+
+    .hero-tri {
+        border-width: 0 50vw 20vw 0;
+    }
+
+    .hero-date {
+        font-size: clamp(2rem, 8vw, 3.5rem);
+    }
+
+    .hero-title {
+        font-size: clamp(2.2rem, 8vw, 3.8rem);
+        margin-bottom: 1.2rem;
+    }
+
+    .marquee-banner-white {
+        padding: 1.2rem 0;
+    }
+
+    .manifiesto {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .manif-photo-col {
+        height: 55vw;
+        min-height: 260px;
+    }
+
+    .manif-photo-col .parallax-img,
+    .manif-photo-col img {
+        position: relative;
+        top: auto;
+        height: 100%;
+    }
+
+    .manif-text {
+        padding: 3.5rem 2rem;
+    }
+
+    .manif-text p {
+        font-size: 13px;
+    }
+
+    .programa {
+        padding: 5rem 2rem;
+    }
+
+    .eventos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .evento:nth-child(3n) {
+        border-right: 1px solid #3a3a3a;
+    }
+
+    .evento:nth-child(2n) {
+        border-right: none;
+    }
+
+    .espacios {
+        grid-template-columns: 1fr;
+        padding: 0;
+        min-height: auto;
+    }
+
+    .espacios-text {
+        padding: 3.5rem 2rem 2rem;
+        order: 1;
+    }
+
+    .espacios-photo-col {
+        order: 2;
+        height: 55vw;
+        min-height: 260px;
+    }
+
+    .espacios-photo-col .parallax-img,
+    .espacios-photo-col img {
+        position: relative;
+        top: auto;
+        height: 100%;
+    }
+
+    .concepto {
+        padding: 5rem 2rem;
+    }
+
+    .symbols-row {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sym-op {
+        padding-bottom: 0.5rem;
+    }
+
+
+
+
+
+
+}
+
+
+/* ================================================================
+   MÓVIL  max-width: 480px
+   ================================================================ */
+@media (max-width: 480px) {
+
+    /* Nav: horizontal compacta, logo izquierda, iconos derecha */
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.9rem 1rem;
+        padding-right: 0rem;
+        gap: 0;
+        /* Evita que los iconos se salgan del viewport */
+        overflow: hidden;
+    }
+
+    .nav-logo {
+        width: 100px;
+        flex-shrink: 0;
+    }
+
+    .nav-label {
+        max-height: 0 !important;
+        opacity: 0 !important;
+    }
+
+    .nav-links {
+        /* Los iconos se distribuyen en el espacio disponible */
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.1rem;
+        /* separación reducida para que quepan */
+        flex-shrink: 1;
+        min-width: 0;
+        padding-top: 0;
+        justify-content: flex-end;
+    }
+
+    .nav-links a {
+        gap: 0;
+        flex-shrink: 0;
+        letter-spacing: 0;
+    }
+
+    .nav-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* Hero */
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        height: auto;
+        min-height: calc(100vh - 55px);
+        margin-top: 55px;
+    }
+
+    .hero-left {
+        padding: 2rem 1.5rem;
+        min-height: 45vw;
+    }
+
+    .hero-right {
+        padding: 2rem 1.5rem;
+        min-height: 45vw;
+    }
+
+    .hero-tri {
+        border-width: 0 60vw 24vw 0;
+    }
+
+    .hero-date {
+        font-size: clamp(1.8rem, 10vw, 2.8rem);
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 11vw, 3rem);
+        margin-bottom: 1rem;
+    }
+
+    .hero-tag,
+    .hero-city {
+        font-size: 8px;
+    }
+
+    .hero-subtitle {
+        font-size: 8px;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-cta {
+        font-size: 9px;
+    }
+
+    /* Manifiesto */
+    .manif-photo-col {
+        height: 70vw;
+        min-height: 200px;
+    }
+
+    .manif-text {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .manif-text p {
+        font-size: 12px;
+    }
+
+    /* Programa: 1 columna */
+    .programa {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .programa h2 {
+        margin-bottom: 3rem;
+    }
+
+    .eventos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .evento {
+        border-right: none !important;
+        padding: 2rem 1.5rem;
+    }
+
+    .evento-tipo {
+        display: none;
+    }
+
+    /* Espacios */
+    .espacios-text {
+        padding: 2.5rem 1.5rem 1.5rem;
+    }
+
+    .espacios-photo-col {
+        height: 70vw;
+        min-height: 200px;
+    }
+
+    .espacios-list li {
+        padding: 1rem 0.5rem;
+        font-size: 10px;
+    }
+
+    /* Marquee */
+    .marquee-banner {
+        padding: 1rem 0;
+    }
+
+    .marquee-track span {
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+    }
+
+    .marquee-track .sep {
+        padding: 0 1rem;
+        font-size: 0.85rem;
+    }
+
+    .marquee-track {
+        animation-duration: 14s;
+    }
+
+    /* Concepto */
+    .concepto {
+        padding: 4rem 1.5rem;
+    }
+
+    .concepto h2 {
+        font-size: clamp(1.2rem, 6vw, 1.8rem);
+        margin-bottom: 2rem;
+    }
+
+    .symbols-row {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .symbol-item svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sym-op {
+        font-size: 1.4rem;
+    }
+
+    /* Footer móvil */
+    footer {
+        padding: 3rem 1.5rem 2rem;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footer-top>div {
+        align-items: center !important;
+        width: 100%;
+    }
+
+    .footer-info {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .footer-logo-contraforma,
+    .footer-logo-maestranza {
+        display: block;
+        width: 90px;
+        margin: 0 auto;
+    }
+
+
+}
