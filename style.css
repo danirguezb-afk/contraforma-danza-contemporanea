@@ -47,6 +47,14 @@ nav {
   width: 200px;
 }
 
+.nav-logo-simple {
+  display: none;
+}
+
+.nav-logo-vertical {
+  display: none;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
