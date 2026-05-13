@@ -12,9 +12,7 @@ body {
 @media (max-width: 1024px) {
 
 
-    nav {
-        padding: 1.2rem 2.5rem;
-    }
+
 
     .nav-logo {
         width: 160px;
@@ -25,7 +23,7 @@ body {
     }
 
     .hero {
-        margin-top: 62px;
+        margin-top: 50px;
     }
 
 
@@ -46,12 +44,10 @@ body {
         padding: 6rem 2.5rem;
     }
 
-    .espacios {
-        padding: 2rem;
-    }
+
 
     .espacios-text {
-        padding: 4rem 2.5rem 4rem 0.5rem;
+        padding: 4rem 2.5rem 4rem 4rem;
     }
 
     .concepto {
@@ -113,7 +109,6 @@ body {
     }
 
 
-
     .hero {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -152,7 +147,7 @@ body {
     }
 
     .manif-photo-col {
-        height: 55vw;
+        height: 97vw;
         min-height: 260px;
     }
 
@@ -314,7 +309,7 @@ body {
 
     /* Manifiesto */
     .manif-photo-col {
-        height: 70vw;
+        height: 96vw;
         min-height: 200px;
     }
 

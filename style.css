@@ -244,23 +244,6 @@ nav.compact .nav-label {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
-  mix-blend-mode: multiply;
-  display: block;
-}
-
-.manif-circle {
-  position: absolute;
-  --r: 38vw;
-  width: calc(var(--r) * 2);
-  height: calc(var(--r) * 2);
-  border-radius: 50%;
-  background: var(--white);
-  top: 50%;
-  left: calc(50% - var(--r) * 0.55);
-  transform: translateY(-50%);
-  z-index: 2;
-  pointer-events: none;
 }
 
 .manif-text {
@@ -390,7 +373,7 @@ nav.compact .nav-label {
 
 /* ─── ESPACIOS ────────────────────────────────────── */
 .espacios {
-  padding: 3rem;
+  padding: 0;
   position: relative;
   background: var(--white);
   overflow: hidden;
@@ -407,6 +390,15 @@ nav.compact .nav-label {
   text-transform: uppercase;
   line-height: 1.1;
   margin-bottom: 3rem;
+}
+
+.espacios-text {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7rem 3rem 7rem 5rem;
+
 }
 
 .espacios-text p {
@@ -438,12 +430,14 @@ nav.compact .nav-label {
   opacity: 0.3;
 }
 
+.espacios-foto-contenedor {
+  padding: none;
+}
+
 .espacios-shapes img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
-  mix-blend-mode: multiply;
   display: block;
 }
 
