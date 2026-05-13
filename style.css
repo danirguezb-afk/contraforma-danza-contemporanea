@@ -41,7 +41,7 @@ nav {
   border-bottom: 1px solid var(--mid);
 }
 
-.nav-logo {
+.nav-logo-descriptor {
   display: flex;
   align-items: center;
   width: 200px;
@@ -51,7 +51,7 @@ nav {
   display: none;
 }
 
-.nav-logo-vertical {
+.nav-logo {
   display: none;
 }
 

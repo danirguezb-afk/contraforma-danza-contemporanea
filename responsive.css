@@ -11,12 +11,15 @@ body {
    ================================================================ */
 @media (max-width: 1024px) {
 
-
-
-
     .nav-logo {
         width: 160px;
+        display: block;
     }
+
+    .nav-logo-descriptor {
+        display: none;
+    }
+
 
     .nav-links {
         gap: 1.5rem;
