@@ -65,6 +65,10 @@ body {
     .footer-logo-contraforma {
         width: 100px;
     }
+
+    .footer-form {
+        width: 240px;
+    }
 }
 
 
@@ -222,6 +226,25 @@ body {
     .sym-op {
         padding-bottom: 0.5rem;
     }
+
+    .footer-top {
+
+        align-items: end !important;
+        gap: 3rem;
+    }
+
+    .footer-form {
+        width: 100%;
+        max-width: 400px;
+        order: 2;
+        /* El formulario queda en medio */
+    }
+
+    .footer-info-col {
+        order: 3;
+        align-items: center;
+    }
+
 }
 
 /* ================================================================
@@ -432,5 +455,12 @@ body {
         margin: 0 auto;
     }
 
+    .footer-form {
+        padding: 0 1rem;
+    }
+
+    .footer-info-col {
+        align-items: center !important;
+    }
 
 }

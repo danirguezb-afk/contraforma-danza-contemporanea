@@ -615,3 +615,68 @@ footer {
 
   width: 125px;
 }
+
+/* ─── MODIFICACIÓN FOOTER FORM ────────────────────── */
+
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 300px;
+}
+
+.form-label {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.footer-form input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #444;
+  padding: 0.6rem 0;
+  color: var(--white);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.footer-form input:focus {
+  border-bottom-color: var(--white);
+}
+
+.form-btn {
+  background: var(--white);
+  color: var(--black);
+  border: none;
+  padding: 0.8rem;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: opacity 0.3s;
+  transition: transform 0.3s ease;
+}
+
+.form-btn:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+.footer-info-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.5rem;
+}

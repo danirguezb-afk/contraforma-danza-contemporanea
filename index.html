@@ -255,18 +255,36 @@
   </section>
 
   <!-- ─── FOOTER ────────────────────────────────────────── -->
+  <!-- ─── FOOTER ────────────────────────────────────────── -->
   <footer id="footer">
     <div class="footer-top">
 
+      <!-- Logo Izquierda -->
       <img class="footer-logo-contraforma" src="imagen/LOGO_CONTRAFORMA_WHITE.png"
         alt="Logotipo de Contraforma sin descriptor">
 
-      <div style="display:flex; flex-direction:column; align-items:flex-end; gap:1.5rem;">
+      <!-- Formulario Centro (NUEVO) -->
+      <form class="footer-form" id="contacto" action="#">
+        <p class="form-label">Contacto</p>
+        <div class="form-group">
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellidos" required
+            oninvalid="this.setCustomValidity('Por favor, dinos quién eres.')" oninput="this.setCustomValidity('')">
+        </div>
+
+        <div class="form-group">
+          <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" pattern="[0-9]{9,15}" required
+            oninvalid="this.setCustomValidity('Necesitamos un número válido de contacto.')"
+            oninput="this.setCustomValidity('')">
+        </div>
+        <button type="submit" class="form-btn">Enviar</button>
+      </form>
+
+      <!-- Info Derecha -->
+      <div class="footer-info-col">
         <div class="footer-info">
           <strong>Sevilla</strong><br>
           Del 15 al 30 de mayo de 2026
         </div>
-
         <img class="footer-logo-maestranza" src="imagen/LOGO_MAESTRANZA_WHITE.png"
           alt="Logotipo del Real Teatro de la Maestranza">
       </div>
