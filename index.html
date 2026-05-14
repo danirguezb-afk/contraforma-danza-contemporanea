@@ -99,8 +99,6 @@
 
   <!-- ─── MANIFIESTO ──────────────────────────────────── -->
   <section class="manifiesto" id="manifiesto">
-
-    <!-- Dancer image: place your PNG here. Black bg disappears via mix-blend-mode:multiply -->
     <div class="manif-photo-col">
       <img src="imagen/BAILARINA_CONTRAFORMA.png" alt="bailarina CONTRAFORMA" />
 
@@ -260,7 +258,6 @@
   <footer id="footer">
     <div class="footer-top">
 
-      <!-- CONTRAFORMA logo (white version) -->
       <img class="footer-logo-contraforma" src="imagen/LOGO_CONTRAFORMA_WHITE.png"
         alt="Logotipo de Contraforma sin descriptor">
 
@@ -269,7 +266,7 @@
           <strong>Sevilla</strong><br>
           Del 15 al 30 de mayo de 2026
         </div>
-        <!-- Teatro de la Maestranza logo -->
+
         <img class="footer-logo-maestranza" src="imagen/LOGO_MAESTRANZA_WHITE.png"
           alt="Logotipo del Real Teatro de la Maestranza">
       </div>
@@ -283,7 +280,7 @@
 
   <!-- ─── JS ─────────────────────────────────────────────── -->
   <script>
-    // Nav compact on scroll down, expand on scroll up
+
     const nav = document.querySelector('nav');
     const backTop = document.getElementById('back-top');
     const THRESHOLD = 300;
@@ -300,7 +297,7 @@
       lastY = y;
     });
 
-    // Scroll fade-in for events, list items and symbols
+
     const obs = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) {
