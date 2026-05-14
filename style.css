@@ -167,6 +167,7 @@ nav.compact .nav-label {
 }
 
 .hero-tag {
+  font-weight: 400 !important;
   font-size: 9px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -183,7 +184,8 @@ nav.compact .nav-label {
   margin-bottom: 0.75rem;
 }
 
-.hero-city {
+.hero-year {
+  font-weight: 400 !important;
   font-size: 10px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -202,6 +204,7 @@ nav.compact .nav-label {
 }
 
 .hero-subtitle {
+  font-weight: 500 !important;
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
